@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Win10_1.UI.Views.Users.PercentageControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Win10_1.UI.Views.Users"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <StackPanel Orientation="Vertical"
+                Margin="4">
+        <TextBlock Text="{Binding LabelText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                   FontWeight="SemiBold"
+                   Margin="0,0,0,3" />
+
+        <mah:NumericUpDown Value="{Binding Percent, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                           Minimum="0"
+                           Maximum="100"
+                           Interval="5"
+                           StringFormat="0' %'"
+                           HorizontalAlignment="Left"
+                           Width="150"
+                           Height="35"
+                           Margin="0,0,0,0" />
+    </StackPanel>
+
+</UserControl>

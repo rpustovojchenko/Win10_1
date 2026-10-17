@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="Win10_1.UI.Views.Users.PriorityControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:enums="clr-namespace:Win10_1.Domain.Enums;assembly=Win10_1.Domain"
+             xmlns:local="clr-namespace:Win10_1.UI.Views.Users"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <StackPanel Orientation="Vertical"
+                Margin="4">
+        <TextBlock Text="{Binding LabelText, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                   FontWeight="SemiBold"
+                   Margin="0,0,0,3" />
+
+        <ComboBox SelectedValue="{Binding Priority,
+                                          RelativeSource={RelativeSource AncestorType=UserControl},
+                                          Mode=TwoWay}"
+                  SelectedValuePath="Tag"
+                  Width="150"
+                  Height="35"
+                  HorizontalAlignment="Left">
+
+            <ComboBox.Items>
+                <ComboBoxItem Tag="{x:Static enums:Priority.None}"
+                              Content="{DynamicResource Strings.PriorityNone}" />
+
+                <ComboBoxItem Tag="{x:Static enums:Priority.Low}"
+                              Content="{DynamicResource Strings.PriorityLow}" />
+
+                <ComboBoxItem Tag="{x:Static enums:Priority.Medium}"
+                              Content="{DynamicResource Strings.PriorityMedium}" />
+
+                <ComboBoxItem Tag="{x:Static enums:Priority.High}"
+                              Content="{DynamicResource Strings.PriorityHigh}" />
+
+                <ComboBoxItem Tag="{x:Static enums:Priority.Critical}"
+                              Content="{DynamicResource Strings.PriorityCritical}" />
+            </ComboBox.Items>
+        </ComboBox>
+    </StackPanel>
+</UserControl>

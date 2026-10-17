@@ -1,0 +1,107 @@
+﻿<UserControl x:Class="Win10_1.UI.Views.Users.ProjectCreateControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Win10_1.UI.Views.Users"
+             xmlns:user="clr-namespace:Win10_1.UI.Views.Users"
+             xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+             mc:Ignorable="d"
+             d:DesignHeight="450"
+             d:DesignWidth="800">
+
+    <Border Background="{DynamicResource App.CardBackground}"
+            BorderBrush="{DynamicResource App.CardBorder}"
+            BorderThickness="1"
+            CornerRadius="6"
+            Padding="18"
+            Margin="12"
+            MaxWidth="580">
+
+        <StackPanel>
+
+            <TextBlock Grid.Row="0"
+                       Text="{DynamicResource Strings.NewProject}"
+                       FontSize="20"
+                       FontWeight="SemiBold"
+                       Foreground="{DynamicResource App.TextPrimary}"
+                       Margin="0,0,0,18" />
+
+            <user:TextBlockControl LabelText="{DynamicResource Strings.ProjectName}"
+                                   Text="{Binding Project.ProjectName,
+                                                  RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                   WatermarkText="{DynamicResource Strings.EnterProjectName}"
+                                   TextBoxMargin="0,5,0,10"
+                                   TextBoxPadding="5"
+                                   TextWrapping="Wrap"
+                                   CornerRadius="8" />
+
+            <user:TextBlockControl LabelText="{DynamicResource Strings.ThemeName}"
+                                   Text="{Binding Project.Theme,
+                                                  RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                   WatermarkText="{DynamicResource Strings.EnterThemeName}"
+                                   TextBoxMargin="0,5,0,10"
+                                   TextBoxPadding="5"
+                                   TextWrapping="Wrap"
+                                   CornerRadius="8" />
+
+            <user:TextBlockControl LabelText="{DynamicResource Strings.Description}"
+                                   Text="{Binding Project.Description,
+                                                  RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                   TextWrapping="Wrap"
+                                   AcceptsReturn="True"
+                                   WatermarkText="{DynamicResource Strings.EnterProjectDescription}"
+                                   TextBoxMargin="0,5,0,10"
+                                   CornerRadius="8" />
+
+            <TextBlock Text="{DynamicResource Strings.Deadline}"
+                       Foreground="{DynamicResource App.TextPrimary}" />
+
+            <DatePicker SelectedDate="{Binding Project.DeadLine,
+                                       RelativeSource={RelativeSource AncestorType=UserControl}}"
+                        Style="{DynamicResource MahApps.Styles.DatePicker}"
+                        mah:TextBoxHelper.Watermark="{DynamicResource Strings.SelectDate}"
+                        Margin="0,5,0,10">
+                <DatePicker.Resources>
+                    <Style TargetType="{x:Type DatePickerTextBox}"
+                           BasedOn="{StaticResource MahApps.Styles.DatePickerTextBox}">
+                        <Setter Property="IsReadOnly"
+                                Value="True" />
+                    </Style>
+                </DatePicker.Resources>
+            </DatePicker>
+
+            <DockPanel LastChildFill="False"
+                       Margin="0">
+                <user:PercentageControl LabelText="{DynamicResource Strings.PercentComplete}"
+                                        Percent="{Binding Project.PercentComplete,
+                                                          RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                        DockPanel.Dock="Left"
+                                        Width="200" />
+
+                <user:StatusControl LabelText="{DynamicResource Strings.Status}"
+                                    Status="{Binding Project.Status,
+                                                     RelativeSource={RelativeSource AncestorType=UserControl}}" />
+
+                <user:PriorityControl LabelText="{DynamicResource Strings.Priority}"
+                                      Priority="{Binding Project.Priority,
+                                                       RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                      DockPanel.Dock="Right" />
+            </DockPanel>
+
+            <ProgressBar Value="{Binding Project.PercentComplete,
+                                         RelativeSource={RelativeSource AncestorType=UserControl}}"
+                         Margin="0,20"
+                         Foreground="{DynamicResource App.Accent}"
+                         Background="{DynamicResource App.ControlBackground}" />
+
+            <Grid HorizontalAlignment="Center">
+                <Button Content="{DynamicResource Strings.AddProject}"
+                        Command="{Binding AddProjectCommand,
+                                         RelativeSource={RelativeSource AncestorType=UserControl}}"
+                        Padding="20,0" />
+            </Grid>
+
+        </StackPanel>
+    </Border>
+</UserControl>

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Win10_1.Business/Win10_1.Business.csproj" />
+  <Project Path="Win10_1.Domain/Win10_1.Domain.csproj" />
+  <Project Path="Win10_1.Tests/Win10_1.Tests.csproj" Id="762f63fc-c519-4f86-b167-6f581b486fc4" />
+  <Project Path="Win10_1.UI/Win10_1.UI.csproj" />
+</Solution>

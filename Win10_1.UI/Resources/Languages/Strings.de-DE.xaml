@@ -1,0 +1,198 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Application -->
+    <sys:String x:Key="Strings.AppTitle">Projektmanager</sys:String>
+
+    <!-- Tabs and sections -->
+    <sys:String x:Key="Strings.Projects">Projekte</sys:String>
+    <sys:String x:Key="Strings.Project">Projekt</sys:String>
+    <sys:String x:Key="Strings.NewProject">Neues Projekt</sys:String>
+    <sys:String x:Key="Strings.Settings">Einstellungen</sys:String>
+    <sys:String x:Key="Strings.Profile">Profil</sys:String>
+    <sys:String x:Key="Strings.Information">Informationen</sys:String>
+    <sys:String x:Key="Strings.Tasks">Aufgaben</sys:String>
+    <sys:String x:Key="Strings.Comments">Kommentare</sys:String>
+
+    <!-- Settings -->
+    <sys:String x:Key="Strings.Language">Anwendungssprache:</sys:String>
+    <sys:String x:Key="Strings.Theme">Anwendungsthema:</sys:String>
+
+    <!-- Profile -->
+    <sys:String x:Key="Strings.Username">Benutzername:</sys:String>
+    <sys:String x:Key="Strings.Login">Login:</sys:String>
+    <sys:String x:Key="Strings.NewUsername">Neuer Benutzername</sys:String>
+    <sys:String x:Key="Strings.NewLogin">Neuer Login</sys:String>
+    <sys:String x:Key="Strings.NewPassword">Neues Passwort</sys:String>
+    <sys:String x:Key="Strings.ConfirmPassword">Passwort bestätigen</sys:String>
+    <sys:String x:Key="Strings.SaveChanges">Änderungen speichern</sys:String>
+
+    <!-- Projects -->
+    <sys:String x:Key="Strings.ProjectName">Projektname</sys:String>
+    <sys:String x:Key="Strings.ThemeName">Thema:</sys:String>
+    <sys:String x:Key="Strings.NoTheme">Kein Thema</sys:String>
+    <sys:String x:Key="Strings.Description">Beschreibung:</sys:String>
+    <sys:String x:Key="Strings.Deadline">Frist:</sys:String>
+    <sys:String x:Key="Strings.PercentComplete">Fertigstellungsgrad</sys:String>
+    <sys:String x:Key="Strings.Status">Status:</sys:String>
+    <sys:String x:Key="Strings.Priority">Priorität:</sys:String>
+    <sys:String x:Key="Strings.Readiness">Fertigstellung:</sys:String>
+    <sys:String x:Key="Strings.CreatedAt">Erstellt:</sys:String>
+    <sys:String x:Key="Strings.UpdatedAt">Aktualisiert:</sys:String>
+
+    <sys:String x:Key="Strings.EnterProjectName">Projektname eingeben</sys:String>
+    <sys:String x:Key="Strings.EnterThemeName">Themenname eingeben</sys:String>
+    <sys:String x:Key="Strings.EnterProjectDescription">Projektbeschreibung eingeben</sys:String>
+
+    <!-- Filters -->
+    <sys:String x:Key="Strings.FilterByProjectName">Nach Projektname filtern</sys:String>
+    <sys:String x:Key="Strings.FilterByTheme">Nach Thema filtern</sys:String>
+    <sys:String x:Key="Strings.FilterByStatus">Nach Status filtern</sys:String>
+    <sys:String x:Key="Strings.FilterByPriority">Nach Priorität filtern</sys:String>
+    <sys:String x:Key="Strings.Reset">Zurücksetzen</sys:String>
+
+    <!-- Tasks -->
+    <sys:String x:Key="Strings.Title">Titel</sys:String>
+    <sys:String x:Key="Strings.AddTask">Aufgabe hinzufügen</sys:String>
+
+    <!-- Comments -->
+    <sys:String x:Key="Strings.Author">Autor</sys:String>
+    <sys:String x:Key="Strings.Comment">Kommentar</sys:String>
+    <sys:String x:Key="Strings.AddComment">Kommentar hinzufügen</sys:String>
+
+    <!-- Password -->
+    <sys:String x:Key="Strings.PasswordLatinOnly">Nur lateinische Buchstaben</sys:String>
+    <sys:String x:Key="Strings.PasswordMinLength">Mindestlänge: 8 Zeichen</sys:String>
+    <sys:String x:Key="Strings.PasswordDigitOrSpecial">Muss eine Ziffer oder ein Sonderzeichen enthalten</sys:String>
+    <sys:String x:Key="Strings.PasswordsMustMatch">Die Passwörter müssen übereinstimmen</sys:String>
+
+    <!-- Actions -->
+    <sys:String x:Key="Strings.AddProject">Projekt hinzufügen</sys:String>
+    <sys:String x:Key="Strings.Save">Speichern</sys:String>
+    <sys:String x:Key="Strings.Cancel">Abbrechen</sys:String>
+    <sys:String x:Key="Strings.Edit">Bearbeiten</sys:String>
+    <sys:String x:Key="Strings.Delete">Löschen</sys:String>
+    <sys:String x:Key="Strings.EditProject">Projekt bearbeiten</sys:String>
+    <sys:String x:Key="Strings.DeleteProject">Projekt löschen</sys:String>
+
+    <!-- Languages -->
+    <sys:String x:Key="Strings.LanguageRussian">Russisch</sys:String>
+    <sys:String x:Key="Strings.LanguageEnglish">Englisch</sys:String>
+    <sys:String x:Key="Strings.LanguageGerman">Deutsch</sys:String>
+
+    <!-- Priorities -->
+    <sys:String x:Key="Strings.PriorityNone">Nicht festgelegt</sys:String>
+    <sys:String x:Key="Strings.PriorityLow">Niedrig</sys:String>
+    <sys:String x:Key="Strings.PriorityMedium">Mittel</sys:String>
+    <sys:String x:Key="Strings.PriorityHigh">Hoch</sys:String>
+    <sys:String x:Key="Strings.PriorityCritical">Kritisch</sys:String>
+
+    <!-- Statuses -->
+    <sys:String x:Key="Strings.StatusNone">Nicht angegeben</sys:String>
+    <sys:String x:Key="Strings.StatusNonStarted">Nicht begonnen</sys:String>
+    <sys:String x:Key="Strings.StatusInProgress">In Bearbeitung</sys:String>
+    <sys:String x:Key="Strings.StatusOnHold">Pausiert</sys:String>
+    <sys:String x:Key="Strings.StatusCompleted">Abgeschlossen</sys:String>
+    <sys:String x:Key="Strings.StatusCancelled">Abgebrochen</sys:String>
+
+    <!-- Themes -->
+    <sys:String x:Key="Strings.ThemeLight">Hell</sys:String>
+    <sys:String x:Key="Strings.ThemeDark">Dunkel</sys:String>
+
+    <!-- Authentication and validation -->
+    <sys:String x:Key="Strings.AuthInvalidCredentials">Falscher Login oder falsches Passwort!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginAlreadyExists">Ein Benutzer mit diesem Login ist bereits vorhanden!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterUsername">Benutzername eingeben!</sys:String>
+    <sys:String x:Key="Strings.AuthUsernameLettersOnly">Der Benutzername darf nur Buchstaben enthalten!</sys:String>
+    <sys:String x:Key="Strings.AuthUsernameMaxLength">Der Benutzername darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidUsernameTitle">Ungültiger Benutzername!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterLogin">Login eingeben!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginLatinLettersAndDigits">Der Login darf nur lateinische Buchstaben und Ziffern enthalten!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginMaxLength">Der Login darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidLoginTitle">Ungültiger Login!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterPassword">Passwort eingeben!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordRequirements">Das Passwort muss:\nNur lateinische Buchstaben enthalten\nLänger als {0} Zeichen sein\nMindestens eine Ziffer oder ein Sonderzeichen enthalten</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidPasswordTitle">Ungültiges Passwort!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordLatinOnly">Nur lateinische Buchstaben enthalten</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordMinLength">Länger als {0} Zeichen sein</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordDigitOrSpecial">Mindestens eine Ziffer oder ein Sonderzeichen enthalten</sys:String>
+
+    <sys:String x:Key="Strings.AuthRepeatPassword">Passwort wiederholen!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordsDoNotMatch">Die Passwörter stimmen nicht überein!</sys:String>
+
+    <sys:String x:Key="Strings.CommentRequired">Kommentar eingeben!</sys:String>
+    <sys:String x:Key="Strings.CommentMaxLength">Der Kommentar darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+
+    <!-- Dialogs -->
+    <sys:String x:Key="Strings.DialogTitleInfo">Information</sys:String>
+    <sys:String x:Key="Strings.DialogTitleError">Fehler</sys:String>
+    <sys:String x:Key="Strings.DialogTitleWarning">Warnung</sys:String>
+    <sys:String x:Key="Strings.DialogTitleConfirm">Bestätigung</sys:String>
+    <sys:String x:Key="Strings.DialogTitleConfirmChanges">Änderungen bestätigen</sys:String>
+    <sys:String x:Key="Strings.DialogButtonConfirm">Bestätigen</sys:String>
+    <sys:String x:Key="Strings.DialogButtonCancel">Abbrechen</sys:String>
+
+    <!-- Profile validation -->
+    <sys:String x:Key="Strings.ProfileUsernameUnchanged">Der neue Benutzername darf nicht mit dem aktuellen übereinstimmen!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidUsername">Der Benutzername darf nur Buchstaben enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProfileUsernameMaxLength">Der Benutzername darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidUsernameTitle">Ungültiger Benutzername!</sys:String>
+
+    <sys:String x:Key="Strings.ProfileLoginUnchanged">Der neue Login darf nicht mit dem aktuellen übereinstimmen!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginLatinLettersAndDigits">Der Login darf nur lateinische Buchstaben und Ziffern enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginMaxLength">Der Login darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginAlreadyExists">Ein Benutzer mit diesem Login ist bereits vorhanden!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidLoginTitle">Ungültiger Login!</sys:String>
+
+    <sys:String x:Key="Strings.ProfilePasswordUnchanged">Das neue Passwort darf nicht mit dem aktuellen übereinstimmen!</sys:String>
+    <sys:String x:Key="Strings.ProfilePasswordRequirements">Das Passwort muss:&#10;Nur lateinische Buchstaben enthalten&#10;Länger als {0} Zeichen sein&#10;Mindestens eine Ziffer oder ein Sonderzeichen enthalten</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidPasswordTitle">Ungültiges Passwort!</sys:String>
+    <sys:String x:Key="Strings.ProfileConfirmPassword">Passwort bestätigen</sys:String>
+    <sys:String x:Key="Strings.ProfileEnterNewPassword">Geben Sie ein neues Passwort ein!</sys:String>
+    <sys:String x:Key="Strings.ProfilePasswordsDoNotMatch">Die Passwörter stimmen nicht überein!</sys:String>
+
+    <sys:String x:Key="Strings.ProjectNameRequired">Projektname eingeben!</sys:String>
+    <sys:String x:Key="Strings.ProjectNameMaxLength">Der Projektname darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProjectThemeMaxLength">Das Thema darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.ProjectDescriptionMaxLength">Die Beschreibung darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+
+    <!-- Project validation -->
+    <sys:String x:Key="Strings.InvalidProjectNameTitle">Ungültiger Projektname!</sys:String>
+    <sys:String x:Key="Strings.InvalidProjectDescriptionTitle">Ungültige Projektbeschreibung!</sys:String>
+    <sys:String x:Key="Strings.InvalidProjectThemeTitle">Ungültiger Themenname!</sys:String>
+
+    <!-- Task validation -->
+    <sys:String x:Key="Strings.TaskTitleRequired">Aufgabentitel eingeben!</sys:String>
+    <sys:String x:Key="Strings.TaskTitleMaxLength">Der Titel darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+    <sys:String x:Key="Strings.TaskDescriptionRequired">Aufgabenbeschreibung eingeben!</sys:String>
+    <sys:String x:Key="Strings.TaskDescriptionMaxLength">Die Beschreibung darf nicht mehr als {0} Zeichen enthalten!</sys:String>
+
+    <!-- Comment dialogs -->
+    <sys:String x:Key="Strings.AddCommentTitle">Kommentar hinzufügen</sys:String>
+    <sys:String x:Key="Strings.AddCommentButton">Hinzufügen</sys:String>
+    <sys:String x:Key="Strings.EditCommentTitle">Kommentar bearbeiten</sys:String>
+    <sys:String x:Key="Strings.EditCommentButton">Ändern</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteComment">Möchten Sie diesen Kommentar wirklich löschen?</sys:String>
+
+    <sys:String x:Key="Strings.EditProjectDialogTitle">Projekt bearbeiten</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteProject">Möchten Sie dieses Projekt wirklich löschen?</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteProjectWithName">Möchten Sie das Projekt „{0}“ wirklich löschen?</sys:String>
+
+    <!-- Task dialogs -->
+    <sys:String x:Key="Strings.AddTaskDialogTitle">Aufgabe hinzufügen</sys:String>
+    <sys:String x:Key="Strings.AddTaskDialogButton">Hinzufügen</sys:String>
+    <sys:String x:Key="Strings.EditTaskDialogTitle">Aufgabe bearbeiten</sys:String>
+    <sys:String x:Key="Strings.EditTaskDialogButton">Ändern</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteTaskWithName">Möchten Sie die Aufgabe „{0}“ wirklich löschen?</sys:String>
+
+    <sys:String x:Key="Strings.ProfileFillAtLeastOneField">Füllen Sie mindestens ein Feld aus, um Ihr Profil zu aktualisieren.</sys:String>
+    <sys:String x:Key="Strings.ProfileEnterPasswordToSave">Geben Sie Ihr Passwort ein, um die Änderungen zu speichern.</sys:String>
+    <sys:String x:Key="Strings.ProfileIncorrectPassword">Das eingegebene Passwort ist falsch.</sys:String>
+
+    <sys:String x:Key="Strings.SelectDate">Datum auswählen</sys:String>
+
+</ResourceDictionary>

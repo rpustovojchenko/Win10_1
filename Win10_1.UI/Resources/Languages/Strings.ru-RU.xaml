@@ -1,0 +1,198 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Приложение -->
+    <sys:String x:Key="Strings.AppTitle">Менеджер проектов</sys:String>
+
+    <!-- Вкладки и разделы -->
+    <sys:String x:Key="Strings.Projects">Проекты</sys:String>
+    <sys:String x:Key="Strings.Project">Проект</sys:String>
+    <sys:String x:Key="Strings.NewProject">Новый проект</sys:String>
+    <sys:String x:Key="Strings.Settings">Настройки</sys:String>
+    <sys:String x:Key="Strings.Profile">Профиль</sys:String>
+    <sys:String x:Key="Strings.Information">Информация</sys:String>
+    <sys:String x:Key="Strings.Tasks">Задачи</sys:String>
+    <sys:String x:Key="Strings.Comments">Комментарии</sys:String>
+
+    <!-- Настройки -->
+    <sys:String x:Key="Strings.Language">Язык приложения:</sys:String>
+    <sys:String x:Key="Strings.Theme">Тема приложения:</sys:String>
+
+    <!-- Профиль -->
+    <sys:String x:Key="Strings.Username">Имя пользователя:</sys:String>
+    <sys:String x:Key="Strings.Login">Логин:</sys:String>
+    <sys:String x:Key="Strings.NewUsername">Новое имя пользователя</sys:String>
+    <sys:String x:Key="Strings.NewLogin">Новый логин</sys:String>
+    <sys:String x:Key="Strings.NewPassword">Новый пароль</sys:String>
+    <sys:String x:Key="Strings.ConfirmPassword">Подтвердите пароль</sys:String>
+    <sys:String x:Key="Strings.SaveChanges">Сохранить изменения</sys:String>
+
+    <!-- Проекты -->
+    <sys:String x:Key="Strings.ProjectName">Название проекта</sys:String>
+    <sys:String x:Key="Strings.ThemeName">Тема:</sys:String>
+    <sys:String x:Key="Strings.NoTheme">Без темы</sys:String>
+    <sys:String x:Key="Strings.Description">Описание:</sys:String>
+    <sys:String x:Key="Strings.Deadline">Дедлайн:</sys:String>
+    <sys:String x:Key="Strings.PercentComplete">Процент выполнения</sys:String>
+    <sys:String x:Key="Strings.Status">Статус:</sys:String>
+    <sys:String x:Key="Strings.Priority">Приоритет:</sys:String>
+    <sys:String x:Key="Strings.Readiness">Готовность:</sys:String>
+    <sys:String x:Key="Strings.CreatedAt">Создан:</sys:String>
+    <sys:String x:Key="Strings.UpdatedAt">Изменён:</sys:String>
+
+    <sys:String x:Key="Strings.EnterProjectName">Введите название проекта</sys:String>
+    <sys:String x:Key="Strings.EnterThemeName">Введите название темы</sys:String>
+    <sys:String x:Key="Strings.EnterProjectDescription">Введите описание проекта</sys:String>
+
+    <!-- Фильтры -->
+    <sys:String x:Key="Strings.FilterByProjectName">Фильтр по названию</sys:String>
+    <sys:String x:Key="Strings.FilterByTheme">Фильтр по теме</sys:String>
+    <sys:String x:Key="Strings.FilterByStatus">Фильтр по статусу</sys:String>
+    <sys:String x:Key="Strings.FilterByPriority">Фильтр по приоритету</sys:String>
+    <sys:String x:Key="Strings.Reset">Сбросить</sys:String>
+
+    <!-- Задачи -->
+    <sys:String x:Key="Strings.Title">Название</sys:String>
+    <sys:String x:Key="Strings.AddTask">Добавить задачу</sys:String>
+
+    <!-- Комментарии -->
+    <sys:String x:Key="Strings.Author">Автор</sys:String>
+    <sys:String x:Key="Strings.Comment">Комментарий</sys:String>
+    <sys:String x:Key="Strings.AddComment">Добавить комментарий</sys:String>
+
+    <!-- Пароль -->
+    <sys:String x:Key="Strings.PasswordLatinOnly">Только латинские буквы</sys:String>
+    <sys:String x:Key="Strings.PasswordMinLength">Минимальная длина 8 символов</sys:String>
+    <sys:String x:Key="Strings.PasswordDigitOrSpecial">Должен содержать цифру или спецсимвол</sys:String>
+    <sys:String x:Key="Strings.PasswordsMustMatch">Пароли должны совпадать</sys:String>
+
+    <!-- Действия -->
+    <sys:String x:Key="Strings.AddProject">Добавить проект</sys:String>
+    <sys:String x:Key="Strings.Save">Сохранить</sys:String>
+    <sys:String x:Key="Strings.Cancel">Отмена</sys:String>
+    <sys:String x:Key="Strings.Edit">Редактировать</sys:String>
+    <sys:String x:Key="Strings.Delete">Удалить</sys:String>
+    <sys:String x:Key="Strings.EditProject">Изменить проект</sys:String>
+    <sys:String x:Key="Strings.DeleteProject">Удалить проект</sys:String>
+
+    <!-- Языки -->
+    <sys:String x:Key="Strings.LanguageRussian">Русский</sys:String>
+    <sys:String x:Key="Strings.LanguageEnglish">Английский</sys:String>
+    <sys:String x:Key="Strings.LanguageGerman">Немецкий</sys:String>
+
+    <!-- Приоритеты -->
+    <sys:String x:Key="Strings.PriorityNone">Не задано</sys:String>
+    <sys:String x:Key="Strings.PriorityLow">Низкий</sys:String>
+    <sys:String x:Key="Strings.PriorityMedium">Средний</sys:String>
+    <sys:String x:Key="Strings.PriorityHigh">Высокий</sys:String>
+    <sys:String x:Key="Strings.PriorityCritical">Критический</sys:String>
+
+    <!-- Статусы -->
+    <sys:String x:Key="Strings.StatusNone">Не указан</sys:String>
+    <sys:String x:Key="Strings.StatusNonStarted">Не начат</sys:String>
+    <sys:String x:Key="Strings.StatusInProgress">В процессе</sys:String>
+    <sys:String x:Key="Strings.StatusOnHold">Приостановлен</sys:String>
+    <sys:String x:Key="Strings.StatusCompleted">Выполнен</sys:String>
+    <sys:String x:Key="Strings.StatusCancelled">Закрыт</sys:String>
+
+    <!-- Темы -->
+    <sys:String x:Key="Strings.ThemeLight">Светлая</sys:String>
+    <sys:String x:Key="Strings.ThemeDark">Темная</sys:String>
+
+    <!-- Аутентификация и валидация -->
+    <sys:String x:Key="Strings.AuthInvalidCredentials">Неверный логин или пароль!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginAlreadyExists">Пользователь с таким логином уже есть!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterUsername">Введите имя пользователя!</sys:String>
+    <sys:String x:Key="Strings.AuthUsernameLettersOnly">Имя пользователя должно содержать только буквы!</sys:String>
+    <sys:String x:Key="Strings.AuthUsernameMaxLength">Имя пользователя не должно превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidUsernameTitle">Некорректное имя пользователя!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterLogin">Введите логин!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginLatinLettersAndDigits">Логин должен содержать только латинские буквы и цифры!</sys:String>
+    <sys:String x:Key="Strings.AuthLoginMaxLength">Логин не должен превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidLoginTitle">Некорректный логин!</sys:String>
+
+    <sys:String x:Key="Strings.AuthEnterPassword">Введите пароль!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordRequirements">Пароль должен:\nСодержать только латинские буквы\nИметь длину больше {0} символов\nСодержать хотя бы одну цифру или спецсимвол</sys:String>
+    <sys:String x:Key="Strings.AuthInvalidPasswordTitle">Некорректный пароль!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordLatinOnly">Содержать только латинские буквы</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordMinLength">Иметь длину больше {0} символов</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordDigitOrSpecial">Содержать хотя бы одну цифру или спецсимвол</sys:String>
+
+    <sys:String x:Key="Strings.AuthRepeatPassword">Повторите пароль!</sys:String>
+    <sys:String x:Key="Strings.AuthPasswordsDoNotMatch">Пароли не совпадают!</sys:String>
+
+    <sys:String x:Key="Strings.CommentRequired">Введите комментарий!</sys:String>
+    <sys:String x:Key="Strings.CommentMaxLength">Комментарий не должен превышать {0} символов!</sys:String>
+
+    <!-- Диалоговые окна -->
+    <sys:String x:Key="Strings.DialogTitleInfo">Информация</sys:String>
+    <sys:String x:Key="Strings.DialogTitleError">Ошибка</sys:String>
+    <sys:String x:Key="Strings.DialogTitleWarning">Предупреждение</sys:String>
+    <sys:String x:Key="Strings.DialogTitleConfirm">Подтверждение</sys:String>
+    <sys:String x:Key="Strings.DialogTitleConfirmChanges">Подтверждение изменений</sys:String>
+    <sys:String x:Key="Strings.DialogButtonConfirm">Подтвердить</sys:String>
+    <sys:String x:Key="Strings.DialogButtonCancel">Отмена</sys:String>
+
+    <!-- Валидация профиля -->
+    <sys:String x:Key="Strings.ProfileUsernameUnchanged">Новое имя не должно совпадать с предыдущим!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidUsername">Имя пользователя должно содержать только буквы!</sys:String>
+    <sys:String x:Key="Strings.ProfileUsernameMaxLength">Имя пользователя не должно превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidUsernameTitle">Некорректное имя пользователя!</sys:String>
+
+    <sys:String x:Key="Strings.ProfileLoginUnchanged">Новый логин не должен совпадать с предыдущим!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginLatinLettersAndDigits">Логин должен содержать только латинские буквы и цифры!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginMaxLength">Логин не должен превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.ProfileLoginAlreadyExists">Пользователь с таким логином уже есть!</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidLoginTitle">Некорректный логин!</sys:String>
+
+    <sys:String x:Key="Strings.ProfilePasswordUnchanged">Новый пароль не должен совпадать с предыдущим!</sys:String>
+    <sys:String x:Key="Strings.ProfilePasswordRequirements">Пароль должен:&#10;Содержать только латинские буквы&#10;Иметь длину больше {0} символов&#10;Содержать хотя бы одну цифру или спецсимвол</sys:String>
+    <sys:String x:Key="Strings.ProfileInvalidPasswordTitle">Некорректный пароль!</sys:String>
+    <sys:String x:Key="Strings.ProfileConfirmPassword">Подтвердите пароль</sys:String>
+    <sys:String x:Key="Strings.ProfileEnterNewPassword">Введите значение для нового пароля!</sys:String>
+    <sys:String x:Key="Strings.ProfilePasswordsDoNotMatch">Пароли не совпадают!</sys:String>
+
+    <sys:String x:Key="Strings.ProjectNameRequired">Введите название проекта!</sys:String>
+    <sys:String x:Key="Strings.ProjectNameMaxLength">Название проекта не должно превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.ProjectThemeMaxLength">Тема не должна превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.ProjectDescriptionMaxLength">Описание не должно превышать {0} символов!</sys:String>
+
+    <!-- Валидация проекта -->
+    <sys:String x:Key="Strings.InvalidProjectNameTitle">Некорректное название для проекта!</sys:String>
+    <sys:String x:Key="Strings.InvalidProjectDescriptionTitle">Некорректное описание проекта!</sys:String>
+    <sys:String x:Key="Strings.InvalidProjectThemeTitle">Некорректное название темы!</sys:String>
+
+    <!-- Валидация задачи -->
+    <sys:String x:Key="Strings.TaskTitleRequired">Введите заголовок задачи!</sys:String>
+    <sys:String x:Key="Strings.TaskTitleMaxLength">Заголовок не должен превышать {0} символов!</sys:String>
+    <sys:String x:Key="Strings.TaskDescriptionRequired">Введите описание задачи!</sys:String>
+    <sys:String x:Key="Strings.TaskDescriptionMaxLength">Описание не должно превышать {0} символов!</sys:String>
+
+    <!-- Диалоги комментариев -->
+    <sys:String x:Key="Strings.AddCommentTitle">Добавить комментарий</sys:String>
+    <sys:String x:Key="Strings.AddCommentButton">Добавить</sys:String>
+    <sys:String x:Key="Strings.EditCommentTitle">Изменить комментарий</sys:String>
+    <sys:String x:Key="Strings.EditCommentButton">Изменить</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteComment">Вы действительно хотите удалить комментарий?</sys:String>
+
+    <sys:String x:Key="Strings.EditProjectDialogTitle">Редактировать проект</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteProject">Вы действительно хотите удалить проект?</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteProjectWithName">Вы действительно хотите удалить проект «{0}»?</sys:String>
+
+    <!-- Диалоги задач -->
+    <sys:String x:Key="Strings.AddTaskDialogTitle">Добавить задачу</sys:String>
+    <sys:String x:Key="Strings.AddTaskDialogButton">Добавить</sys:String>
+    <sys:String x:Key="Strings.EditTaskDialogTitle">Изменить задачу</sys:String>
+    <sys:String x:Key="Strings.EditTaskDialogButton">Изменить</sys:String>
+    <sys:String x:Key="Strings.ConfirmDeleteTaskWithName">Вы действительно хотите удалить задачу «{0}»?</sys:String>
+
+    <sys:String x:Key="Strings.ProfileFillAtLeastOneField">Чтобы изменить профиль, заполните хотя бы одно поле.</sys:String>
+    <sys:String x:Key="Strings.ProfileEnterPasswordToSave">Введите пароль, чтобы сохранить изменения.</sys:String>
+    <sys:String x:Key="Strings.ProfileIncorrectPassword">Введён неверный пароль.</sys:String>
+
+    <sys:String x:Key="Strings.SelectDate">Выбор даты</sys:String>
+
+</ResourceDictionary>
